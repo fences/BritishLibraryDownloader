@@ -133,8 +133,8 @@ namespace BritishLibraryDownloader
                 int.TryParse(txtTo.Text, out end);
                 if (start < 1)
                     start = 1;
-                if (end > int.Parse(txtTitle.Text))
-                    end = int.Parse(txtTitle.Text);
+                if (end > int.Parse(txtShowPagesNumber.Text))
+                    end = int.Parse(txtShowPagesNumber.Text);
                 if (start <= end)
                 {
                     _selectedPage.Clear();
